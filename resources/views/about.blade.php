@@ -57,7 +57,7 @@ About us
                 </div>
                 <div class="col-lg-6 spacing-md">
                     <figure class="about-img-layer">
-                       <img src="{{ asset('assets/images/commons/travi-1.jpg')}}" alt=""> 
+                       <img src="{{ asset('assets/images/contactOne.jpg')}}" alt=""> 
                     </figure>
                 </div>
             </div>
@@ -69,7 +69,7 @@ About us
 
                 <div class="col-lg-6 spacing-md">
                     <figure class="about-img-layer">
-                       <img src="{{ asset('assets/images/commons/travi-1.jpg')}}" alt=""> 
+                       <img src="{{ asset('assets/images/contactTwo.jpg')}}" alt=""> 
                     </figure>
                 </div>
 
