@@ -35,7 +35,7 @@ Contact us
                                 <img src="images/icons/placeholder.png" alt="">
                             </figure>
                         </div>
-                        <p>837 Castle Hill Ave. Bronx NY 33195 United States</p>
+                        <p>Cairo - Egypt</p>
                     </div>
                 </div>
                 <div class="col-lg-4 spacing-m-center">
