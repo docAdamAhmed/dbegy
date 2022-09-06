@@ -75,36 +75,6 @@ Home
 @endsection
 
 @section ('content')
-{{-- <div class="testimonials-layer mt-5 mb-5">
-    <div class="container">
-        <div class="testimonial-carousel">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="testimonial-card">                      
-                        <h2>Who we are ?!</h2>
-                        <div style="padding-right: 750px;padding-bottom: 15px;" class="quote-icon">
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                        <p class="customer-opinion">We are a production house for artistic lighting and projection technologies
-                            as well as production services for events. We transform buildings, spaces and
-                            events with illuminated colors, static and motioned artworks.
-                            As the sole provider of aesthetic bulb lighting and the exclusive agent of
-                            Faniuolo lighting an Italian specialized company in celebratory arrangements
-                            we are dedicated to offer an un-matched service.
-                            At LUMEN8, we offer happiness through light, colors and experience.</p>
-                            <div style="padding-left: 750px;padding-bottom: 15px;" class="quote-icon">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-
-                            <div class="mx-auto" style="width: 250px;">
-                                <img style="width: 250px" src="{{ asset('assets/images/logos/logo.png')}}" alt="">
-                              </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> <div class="text-center px-4 pt-5 my-5 border-bottom bg-dark">  --}}
 
 <div class="text-center px-2 pt-2  border-bottom bg-dark">
     <h1 style="color: whitesmoke" class="display-4 fw-bold">Who we are ?!</h1>
