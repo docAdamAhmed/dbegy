@@ -50,12 +50,6 @@
             <div class="container">
                 <a href="/" class="navbar-brand"><img src="{{ asset('assets/images/logos/logo.png')}}" style="width: 150px" alt=""></a>
 
-                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                </button>
-
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <li><a href="/" class="nav-item nav-link">HOME</a></li>
