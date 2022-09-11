@@ -48,8 +48,8 @@
         <!-- NAV START -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a href="/" class="navbar-brand"><img src="{{ asset('assets/images/logos/finalLogo1.png')}}" alt=""></a>
-                {{-- <a href="/" class="navbar-brand"><img src="{{ asset('assets/images/logos/logo2.png')}}" style="width: 150px" alt=""></a> --}}
+                <a href="/" class="navbar-brand"><img src="{{ asset('assets/images/logos/logo.png')}}" style="width: 150px" alt=""></a>
+
                 <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
                     <span class="menu-icon-bar"></span>
                     <span class="menu-icon-bar"></span>
@@ -62,7 +62,6 @@
                         <li><a href="/about" class="nav-item nav-link">ABOUT</a></li>
                         <li><a href="/contact" class="nav-item nav-link">CONTACT</a></li>
                         <li><a href="/projects" class="nav-item nav-link last-link-item">PROJECTS</a></li>
-                        <li><a href="/products" class="nav-item nav-link last-link-item">SHOP</a></li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +78,7 @@
     <footer>
         <div class="container">
             <figure class="footer-logo">
-                <img src="{{ asset('assets/images/logos/finalLogo1.png')}}" alt="">
+                <img src="{{ asset('assets/images/logos/logo.png')}}" alt="">
             </figure>
             <div class="footer-social d-flex justify-content-center">
                 
