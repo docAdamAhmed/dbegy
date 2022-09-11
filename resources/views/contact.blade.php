@@ -12,8 +12,8 @@ Contact us
     <div id="particles-js" style="height: 350px"></div>
     <div class="container">
         <div class="pages-title">
-            <h1>Contact Us</h1>
-            <div class="page-nav">
+            {{-- <h1>Contact Us</h1> --}}
+            <div style="padding-left: 25px" class="page-nav">
                 <p><a href="/">Home</a> &nbsp; | &nbsp; <a href="#">Contact Us</a></p>
             </div>
         </div>
@@ -32,32 +32,31 @@ Contact us
                     <div class="contact-box">
                         <div class="cb-circle">
                             <figure class="cb-icon">
-                                <img src="images/icons/placeholder.png" alt="">
+                                <img src="{{ asset('assets/images/icons/placeholder.png')}}" alt="">
                             </figure>
                         </div>
-                        <p>Cairo - Egypt</p>
+                        <p>El Merryland St , Heliopolis Cairo Governorate</p>
                     </div>
                 </div>
                 <div class="col-lg-4 spacing-m-center">
                     <div class="contact-box">
                         <div class="cb-circle">
                             <figure class="cb-icon">
-                                <img src="images/icons/telephone.png" alt="">
+                                <img src="{{ asset('assets/images/icons/telephone.png')}}" alt="">
                             </figure>
                         </div>
-                        <p><a href="tel:718-825-3320"> 718-825-3320</a></p>
-                        <p><a href="tel:212-632-4120"> 212-632-4120</a></p>
+                        <p><a href="tel:+201097797714">+2010 9779 7714</a></p>
+                        <p><a href="tel:+201097797715">+2010 9779 7715</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-box">
                         <div class="cb-circle">
                             <figure class="cb-icon">
-                                <img src="images/icons/placeholder.png" alt="">
+                                <img src="{{ asset('assets/images/icons/email.png')}}" alt="">
                             </figure>
                         </div>
-                        <p><a href="mailto:info@travi.com">info@travi.com</a></p>
-                        <p><a href="mailto:sales@travi.com">sales@travi.com</a></p>
+                        <p><a href="mailto:info@dbgroup-eg.com">info@dbgroup-eg.com</a></p>
                     </div>
                 </div>
             </div>

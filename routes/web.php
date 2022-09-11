@@ -39,7 +39,7 @@ Route::get('/projects/led', [ProjectController::class, 'led_index']);
 
 Route::get('/projects/gallery', [ProjectController::class, 'gallery_index']);
 
-Route::get('/projects/products', [ProjectController::class, 'getProducts']);
+Route::get('/products', [ProjectController::class, 'getProducts']);
 
 Route::get('/projector-details/{Projector}', [ProjectController::class, 'show_projector']);
 

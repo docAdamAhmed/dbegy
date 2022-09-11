@@ -10,8 +10,8 @@
         <div id="particles-js" style="height: 350px"></div>
         <div class="container">
             <div class="pages-title">
-                <h1>Projects</h1>
-                <div class="page-nav">
+                {{-- <h1>Projects</h1> --}}
+                <div style="padding-left: 25px" class="page-nav">
                     <p><a href="/">Home</a> &nbsp; | &nbsp; <a href="#">Projects</a></p>
                 </div>
             </div>
@@ -31,7 +31,7 @@
     <section style="padding-top: 15px;">
         <div class="container">
             <div class="row">
-                <div class="col-6 mb-4">
+                {{-- <div class="col-6 mb-4">
                     <div class="item">
                         <a href="/projects/gallery">
                             <figure class="tour-hover">
@@ -47,17 +47,17 @@
                             </figure>
                         </a>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-6 mb-4">
                     <div class="item">
                         <a href="/projects/led">
                             <figure class="tour-hover">
-                                <img style="height: 337.23px" src="{{ asset('assets/images/led.jpg') }}" alt="" />
+                                <img style="height: 337.23px" src="{{ asset('assets/images/new/led.jpg') }}" alt="" />
                                 <figcaption>
                                     <div class="square">
                                         <div></div>
                                     </div>
-                                    <h3>Led light <span> Projects</span></h3>
+                                    <h3>Illumination <span> Projects</span></h3>
                                     <p>Some of our projects made with Led Lights</p>
                                 </figcaption>
                             </figure>
@@ -66,7 +66,7 @@
                 </div>
                 {{-- <div class="row"> --}}
 
-                    <div class="col-6 mb-4">
+                    {{-- <div class="col-6 mb-4">
                         <div class="item">
                             <a href="/projects/products">
                                 <figure class="tour-hover">
@@ -82,7 +82,7 @@
                                 </figure>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="col-6 mb-4">
                         <div class="item">
                             <a href="/projects/projector">
@@ -93,7 +93,7 @@
                                         <div class="square">
                                             <div></div>
                                         </div>
-                                        <h3>Projector <span> Projects</span></h3>
+                                        <h3>Projection Mapping <span> Projects</span></h3>
                                         <p>Some of our projects made with Projector</p>
                                     </figcaption>
                                 </figure>

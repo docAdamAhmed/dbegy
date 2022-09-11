@@ -39,13 +39,13 @@ class ProjectorSeeder extends Seeder
             
         ]);
 
-        Projector::create([
+        // Projector::create([
 
-            "name" => "Cairo Christmas nights",
-            "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo odio a condimentum finibus. Quisque diam diam, tempus et massa at, egestas auctor velit. Integer et mauris ipsum. Donec lobortis sem nisl, eu imperdiet risus finibus quis. Quisque est justo, tempus id lectus non, lobortis hendrerit magna. In ut tempus lorem. Cras dolor dui, fringilla a lacus non, elementum luctus lorem. Ut laoreet sed metus eget convallis. Integer orci dolor, feugiat ac dolor ac, porttitor mollis ante. Nam sodales pretium enim, ut commodo urna viverra vitae.",
-            "cover" => "P4.jpg"
+        //     "name" => "Cairo Christmas nights",
+        //     "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo odio a condimentum finibus. Quisque diam diam, tempus et massa at, egestas auctor velit. Integer et mauris ipsum. Donec lobortis sem nisl, eu imperdiet risus finibus quis. Quisque est justo, tempus id lectus non, lobortis hendrerit magna. In ut tempus lorem. Cras dolor dui, fringilla a lacus non, elementum luctus lorem. Ut laoreet sed metus eget convallis. Integer orci dolor, feugiat ac dolor ac, porttitor mollis ante. Nam sodales pretium enim, ut commodo urna viverra vitae.",
+        //     "cover" => "P4.jpg"
             
-        ]);
+        // ]);
 
         Projector::create([
 

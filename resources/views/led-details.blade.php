@@ -10,8 +10,8 @@ Project Details
     <div id="particles-js" style="height: 350px"></div>
         <div class="container">
             <div class="pages-title">
-                <h1>Project Details</h1>
-                <div class="page-nav">
+                {{-- <h1>Project Details</h1> --}}
+                <div style="padding-left: 25px" class="page-nav">
                     <p><a href="/">Home</a> &nbsp; | &nbsp; <a href="/projects/led">Led Light</a>| &nbsp; <a
                             href="#">Project Details</a></p>
                 </div>

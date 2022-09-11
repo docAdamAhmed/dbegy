@@ -241,6 +241,22 @@ class PhotoSeeder extends Seeder
 
         Photo::create([
 
+            "filename" => "P5-1.jpg",
+            "photoable_id" => "5",
+            "photoable_type" =>"App\Models\Projector"
+
+        ]);
+
+        Photo::create([
+
+            "filename" => "P5-2.jpg",
+            "photoable_id" => "5",
+            "photoable_type" =>"App\Models\Projector"
+
+        ]);
+
+        Photo::create([
+
             "filename" => "P5-3.jpg",
             "photoable_id" => "5",
             "photoable_type" =>"App\Models\Projector"
@@ -255,53 +271,7 @@ class PhotoSeeder extends Seeder
 
         ]);
 
-        Photo::create([
-
-            "filename" => "P5-5.jpg",
-            "photoable_id" => "5",
-            "photoable_type" =>"App\Models\Projector"
-
-        ]);
-
-        Photo::create([
-
-            "filename" => "P5-6.jpg",
-            "photoable_id" => "5",
-            "photoable_type" =>"App\Models\Projector"
-
-        ]);
-
-        Photo::create([
-
-            "filename" => "P5-7.jpg",
-            "photoable_id" => "5",
-            "photoable_type" =>"App\Models\Projector"
-
-        ]);
-
-        Photo::create([
-
-            "filename" => "P5-8.jpg",
-            "photoable_id" => "5",
-            "photoable_type" =>"App\Models\Projector"
-
-        ]);
-
-        Photo::create([
-
-            "filename" => "P5-9.jpg",
-            "photoable_id" => "5",
-            "photoable_type" =>"App\Models\Projector"
-
-        ]);
-
-        Photo::create([
-
-            "filename" => "P5-10.jpg",
-            "photoable_id" => "5",
-            "photoable_type" =>"App\Models\Projector"
-
-        ]);
+       
 
     ///////////////////////////////////////////Start_Gallery//////////////////////////////
 

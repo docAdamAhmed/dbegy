@@ -12,9 +12,9 @@ Products
     <div id="particles-js" style="height: 350px"></div>
     <div class="container">
         <div class="pages-title">
-            <h1>Our Products</h1>
-            <div class="page-nav">
-                <p><a href="/">Home</a> &nbsp; | &nbsp; <a href="#">Products</a></p>
+            {{-- <h1>SHOP</h1> --}}
+            <div style="padding-left: 35px" class="page-nav">
+                <p><a href="/">Home</a> &nbsp; | &nbsp; <a href="#">Shop</a></p>
             </div>
         </div>
     </div> 
@@ -42,7 +42,7 @@ Products
             </div>
           </div>
           <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-              <img class="rounded-lg-3" src="{{ asset('assets/images/product.jpg')}}" alt="" width="720">
+              <img class="rounded-lg-3" src="{{ asset('assets/images/new/productOne.jpg')}}" alt="" width="720">
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ Products
           </div>
         </div>
         <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-            <img class="rounded-lg-3" src="{{ asset('assets/images/product.jpg')}}" alt="" width="720">
+            <img class="rounded-lg-3" src="{{ asset('assets/images/new/productTwo.jpg')}}" alt="" width="720">
         </div>
       </div>
     </div>
